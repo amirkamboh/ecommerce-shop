@@ -7,6 +7,7 @@ import Cart from './Pages/Cart'
 import LoginSingup from './Pages/LoginSignup'
 
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         <Route path='/login' element={<LoginSingup/>} />
 
       </Routes>
-      
+      <Footer/>
       </BrowserRouter>
           
     </div>
